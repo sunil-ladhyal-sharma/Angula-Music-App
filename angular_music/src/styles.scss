@@ -2,3 +2,16 @@
 
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+
+
+
+.header-container {
+  background: rgba(69, 57, 139, 0.7803921569);
+    height: 125px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.music-container {    position: relative;
+  top: 125px;}
