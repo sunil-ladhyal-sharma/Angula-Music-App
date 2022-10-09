@@ -1,0 +1,23 @@
+
+<div class="conatiner" >
+  <div class="row" >
+    <div class="col-3 col-md-3 p-2" *ngFor="let music of Music">
+    <div class="card ">
+      <div class="card-body">
+        <h5 class="card-title">{{music.name}}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+        <audio controls controlslist class="col-12">
+
+          <source src="{{constant.Url}}/{{music.path}}" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
